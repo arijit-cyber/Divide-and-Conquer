@@ -43,7 +43,7 @@ int max_sum(int l,int u)
 	else
 	{
 		m=(l+u)/2;
-	    return(max_sum(l,m),max_sum(m+1,u),max_cross(l,m,u));
+	    return(greatest(max_sum(l,m),max_sum(m+1,u),max_cross(l,m,u)));
     }
 }
 void main()
